@@ -1,5 +1,6 @@
 'use strict';
 
+//iloczyn trzech liczb
 
 function iloczyn(z1, z2, z3)
 {
@@ -10,13 +11,13 @@ function iloczyn(z1, z2, z3)
 console.log(iloczyn(2, 2, 2));
 
 
+//silnia
+function silnia(wpisz) {
+    var wynik = 1;
+    for (var i = 1; i <= wpisz; i++) {
+        wynik = wynik * i;
+    }
 
-function silnia(wpisz)
-{
-    for(var i=1; i<=wypisz, i++)
-        {
-           var wynik = (i-1) * i;
-        }
     return wynik;
 }
-console.log(silnia(5));
+console.log(silnia(4));
